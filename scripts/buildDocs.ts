@@ -36,10 +36,8 @@ import * as glob from "glob";
 import * as yaml from "js-yaml";
 import * as path from "path";
 
-import {IFormatterMetadata} from "../lib/language/formatter/formatter";
 import {IRuleMetadata} from "../lib/language/rule/rule";
 
-type Metadata = IRuleMetadata | IFormatterMetadata;
 type Documented = { metadata: Metadata };
 
 interface IDocumentation {
